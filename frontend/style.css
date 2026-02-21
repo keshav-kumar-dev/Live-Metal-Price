@@ -1,0 +1,25 @@
+#metalDiv{
+    overflow-x: hidden;
+    background-color: bisque;
+    text-align: center;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: nowrap
+
+}
+
+.metal{
+    background-color: beige;
+    margin-right: 2px;
+}
+
+.metal h2{
+    font-size: 3vh;
+}
+
+.metal p{
+    color: red;
+    font-size: 5vh;
+}
