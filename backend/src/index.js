@@ -24,6 +24,9 @@ redisClient.connect().then(()=>{
     server.listen(process.env.PORT,async ()=>{
         console.log(`Server is running on PORT ${process.env.PORT}`);
     })
-    const startCron = require("./services/metalJob");
-    startCron(io);
+    // const startCron = require("./services/metalJob");
+    // startCron(io);
+
+    const startAllTickWebSocket = require("./services/metalWebSocket");
+  startAllTickWebSocket(io);
 })
