@@ -1,25 +1,34 @@
 #metalDiv{
     overflow-x: hidden;
-    background-color: bisque;
     text-align: center;
-    display: flex;;
+    display: grid;
     justify-content: center;
     align-items: center;
     width: 100%;
-    flex-wrap: nowrap
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
 
+}
+
+#bodyHeader{
+    text-align: center;
+    font-size: 7vh;
+    background-color: rgb(50, 207, 155);
+    padding: 5px ;
+    color: white;
 }
 
 .metal{
-    background-color: beige;
-    margin-right: 2px;
+   background-color: bisque;
+    margin: 2px;
+    padding: 4px;
 }
 
 .metal h2{
-    font-size: 3vh;
+    font-size: 4vh;
 }
 
 .metal p{
     color: red;
-    font-size: 5vh;
+    font-size: 3vh;
 }
